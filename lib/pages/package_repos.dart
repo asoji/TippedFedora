@@ -12,9 +12,9 @@ class _PackageReposState extends State<PackageRepos> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Package Repositories")),
-      drawer: ProgressDrawer(),
-      body: Center(
+      appBar: AppBar(title: const Text("Package Repositories")),
+      drawer: const ProgressDrawer(),
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
